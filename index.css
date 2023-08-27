@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  background: rgb(210, 190, 190);
+}
+
+.contenedor-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 104, 104);
+  padding: 1rem;
+  .titulo {
+    color: aliceblue;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: beige;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.image img {
+  margin-bottom: 1rem;
+}
+
+.image ul li b {
+  color: blueviolet;
+}
+
+.conteiner-description {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.description {
+  background: beige;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.description h2 {
+  color: rgb(61, 61, 61);
+  margin-bottom: 1rem;
+}
+
+.description p {
+  color: rgb(255, 104, 104);
+}
+
+.conteiner-contact {
+  display: flex;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.contact {
+  width: 100%;
+  background: rgb(255, 104, 104);
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.contact h2 {
+  color: beige;
+  margin-bottom: 1rem;
+}
+
+.contact label {
+  color: azure;
+}
+
+.footer {
+  background: rgb(135, 181, 214);
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.footer h4 {
+  color: azure;
+}
