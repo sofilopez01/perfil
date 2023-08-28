@@ -4,17 +4,17 @@
 
 body {
   font-size: 16px;
-  background: rgb(210, 190, 190);
+  background-color: #acdde7;
 }
 
 .contenedor-titulo {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(255, 104, 104);
+  background: #adb9e3;
   padding: 1rem;
   .titulo {
-    color: aliceblue;
+    color: whitesmoke;
     font-weight: 500;
     text-transform: uppercase;
   }
@@ -34,9 +34,12 @@ body {
 }
 
 .image ul li b {
-  color: blueviolet;
+  color: #b744b8;
+ font-family: serif;
 }
-
+.image ul li {
+  color: #373f51;
+}
 .conteiner-description {
   display: flex;
   gap: 1rem;
@@ -50,12 +53,12 @@ body {
 }
 
 .description h2 {
-  color: rgb(61, 61, 61);
+  color: #373f51;
   margin-bottom: 1rem;
 }
 
 .description p {
-  color: rgb(255, 104, 104);
+  color: #b744b8;
 }
 
 .conteiner-contact {
@@ -65,9 +68,10 @@ body {
 
 .contact {
   width: 100%;
-  background: rgb(255, 104, 104);
+  background: #a379c9;
   padding: 1rem;
   border-radius: 0.25rem;
+  box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
 }
 
 .contact h2 {
@@ -76,16 +80,20 @@ body {
 }
 
 .contact label {
-  color: azure;
+  color: beige;
+  font-family: sans-serif;
+  
+
 }
 
 .footer {
-  background: rgb(135, 181, 214);
+  background: #adb9e3;
   display: flex;
   justify-content: center;
   padding: 0.5rem;
 }
 
 .footer h4 {
-  color: azure;
+  color: whitesmoke;
+  font-weight: 300;
 }
